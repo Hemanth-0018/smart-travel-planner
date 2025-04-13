@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trip to <%= place %></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="/styles/main.css">
+  <style>
+    .result-container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .result-container h1 {
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .result-container p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .result-container h3 {
+      margin-top: 2rem;
+      color: var(--secondary-color);
+    }
+
+    .result-container ul {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+
+    .result-container li {
+      background: var(--light-color);
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 400px;
+      height: 400px;
+    }
+
+    .result-container .image-section img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    .result-container .list-image {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+      margin-top: 0.5rem;
+      max-height: 300px;
+    }
+
+    .result-container .agency {
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .list-image {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo-container">
+      <img src="/imgs/smart travel planner logo.png" alt="Smart Travel Planner Logo" class="logo">
+      <h1>Smart Travel Planner</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/About_us.html">About Us</a></li>
+        <li><a href="/Contact_us.html">Contact Us</a></li>
+        <li><a href="/login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <div class="result-container">
+    <h1>Trip to <%= place.charAt(0).toUpperCase() + place.slice(1) %></h1>
+    <div class="image-section">
+      <img src="<%= info.image %>" alt="<%= place %> Image">
+    </div>
+    <p><%= info.description %></p>
+
+    <h3>Famous Places:</h3>
+    <ul>
+      <% info.famousPlaces.forEach(place => { %>
+        <li>
+          <strong><%= place.name %></strong> - <%= place.location %><br>
+          <img src="<%= place.image %>" alt="<%= place.name %>" class="list-image">
+        </li>
+      <% }); %>
+    </ul>
+
+    <h3>Recommended Restaurants:</h3>
+    <ul>
+      <% info.restaurants.forEach(restaurant => { %>
+        <li>
+          <strong><%= restaurant.name %></strong> - <%= restaurant.location %><br>
+          <img src="<%= restaurant.image %>" alt="<%= restaurant.name %>" class="list-image">
+        </li>
+      <% }); %>
+    </ul>
+
+    <h3>Hotels:</h3>
+    <ul>
+      <% info.hotels.forEach(hotel => { %>
+        <li>
+          <strong><%= hotel.name %></strong> - <%= hotel.location %><br>
+          <img src="<%= hotel.image %>" alt="<%= hotel.name %>" class="list-image">
+        </li>
+      <% }); %>
+    </ul>
+
+    <h3>Trusted Travel Agencies:</h3>
+    <ul>
+      <% info.travelAgencies.forEach(agency => { %>
+        <li class="agency">
+          <%= agency.name %> — 📞 <%= agency.phone %>
+          <img src="<%= agency.image %>" alt="<%= agency.name %>" class="list-image">
+        </li>
+      <% }); %>
+    </ul>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <a href="">About Us</a>
+      <a href="">FAQ</a>
+      <a href="">Privacy Policy</a>
+      <a href="">Terms of Service</a>
+    </div>
+        
+    <div class="feedback-form">
+      <h3>Feedback</h3>
+      <div class="question" onclick="toggleAnswer('answer1')">
+        <p>How was your experience using our site?</p>
+        <div id="answer1" class="answer">Your answer will appear here.</div>
+      </div>
+      <div class="question" onclick="toggleAnswer('answer2')">
+        <p>What features would you like to see?</p>
+        <div id="answer2" class="answer">Your answer will appear here.</div>
+      </div>
+    </div>
+        
+    <div class="social-media">
+      <a href="https://facebook.com" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleAnswer(id) {
+      const answer = document.getElementById(id);
+      answer.style.maxHeight = answer.style.maxHeight ? null : "100px";
+    }
+  </script>
+</body>
+</html>
