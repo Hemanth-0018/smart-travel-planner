@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Google AI SDK for JavaScript
 
 The Google AI JavaScript SDK is the easiest way for JavaScript developers to
@@ -100,3 +101,6 @@ The contents of this repository are licensed under the
 =======
 # smart-travel-planner
 >>>>>>> de74790c03c5212e05ade8b57aa42fa04c331cf9
+=======
+# smart-travel-planner
+>>>>>>> a44de9e64c44af4365fc11a98a02a0c4c40741d7
