@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "delhi": {
         "description": "Delhi is a vibrant capital city of India known for its rich history and modern charm.",
@@ -363,4 +364,371 @@
             }
         ]
     }
+=======
+{
+    "delhi": {
+        "description": "Delhi is a vibrant capital city of India known for its rich history and modern charm.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Humayun%27s_Tomb%2C_Delhi%2C_India_2019.jpg/1920px-Humayun%27s_Tomb%2C_Delhi%2C_India_2019.jpg",
+        "famousPlaces": [
+            {
+                "name": "Red Fort",
+                "location": "Netaji Subhash Marg, Chandni Chowk",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Red_Fort_-Delhi_-Delhi_-SSI_022.jpg/1179px-Red_Fort_-Delhi_-Delhi_-SSI_022.jpg?20201005185320"
+            },
+            {
+                "name": "Qutub Minar",
+                "location": "Mehrauli",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Delhi-Qutb_Minar-30-2018-gje.jpg/1280px-Delhi-Qutb_Minar-30-2018-gje.jpg"
+            }
+        ],
+        "restaurants": [
+            {
+                "name": "Karim's",
+                "location": "Jama Masjid",
+                "image": "https://images.pexels.com/photos/31592163/pexels-photo-31592163/free-photo-of-professional-chef-preparing-pastries-in-jakarta-hotel.jpeg?auto=compress&cs=tinysrgb&w=600"
+            },
+            {
+                "name": "SodaBottleOpenerWala",
+                "location": "Khan Market",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Local_food%2C_luxury_ambience_1.jpg/250px-Local_food%2C_luxury_ambience_1.jpg"
+            }
+        ],
+        "hotels": [
+            {
+                "name": "The Leela Palace",
+                "location": "Chanakyapuri",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/The_Leela_Palaces%2C_Hotels_and_Resorts_logo.svg/113px-The_Leela_Palaces%2C_Hotels_and_Resorts_logo.svg.png?20181104110600"
+            },
+            {
+                "name": "Taj Palace",
+                "location": "Sardar Patel Marg",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Taj_palace_hotel_03.jpg/618px-Taj_palace_hotel_03.jpg?20090315013739"
+            }
+        ],
+        "travelAgencies": [
+            {
+                "name": "SOTC Travel",
+                "phone": "+91-9876543210",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Sotc-logo.png"
+            },
+            {
+                "name": "Thomas Cook",
+                "phone": "+91-9123456780",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Thomas_Cook%2C_Dundee_-_geograph.org.uk_-_6621983.jpg/1280px-Thomas_Cook%2C_Dundee_-_geograph.org.uk_-_6621983.jpg"
+            }
+        ]
+    },
+    "agra": {
+        "description": "Agra, located on the banks of the Yamuna River, is renowned for its rich Mughal heritage. The city is home to the iconic Taj Mahal, a symbol of love and architectural brilliance.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Taj_Mahal%2C_Agra%2C_India.jpg/640px-Taj_Mahal%2C_Agra%2C_India.jpg",
+        "famousPlaces": [
+            {
+                "name": "Taj Mahal",
+                "location": "Agra, Uttar Pradesh",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Taj_Mahal_in_March_2004.jpg/1024px-Taj_Mahal_in_March_2004.jpg"
+            },
+            {
+                "name": "Agra Fort",
+                "location": "Agra, Uttar Pradesh",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Agra_Fort_description%2C_English.jpg/960px-Agra_Fort_description%2C_English.jpg?20120120141040"
+            }
+        ],
+        "restaurants": [
+            {
+                "name": "Pinch of Spice",
+                "location": "Agra, Uttar Pradesh",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Love_Albert_Road-_A_Pinch_of_Spice_-_geograph.org.uk_-_2678271.jpg/640px-Love_Albert_Road-_A_Pinch_of_Spice_-_geograph.org.uk_-_2678271.jpg"
+            },
+            {
+                "name": "Esphahan",
+                "location": "Agra, Uttar Pradesh",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Esphahan.jpg/1200px-Esphahan.jpg?20081202132238"
+            }
+        ],
+        "hotels": [
+            {
+                "name": "The Oberoi Amarvilas",
+                "location": "Agra, Uttar Pradesh",
+                "image": "https://example.com/images/oberoi_amarvilas.jpg"
+            },
+            {
+                "name": "ITC Mughal",
+                "location": "Agra, Uttar Pradesh",
+                "image": "https://example.com/images/itc_mughal.jpg"
+            }
+        ],
+        "travelAgencies": [
+            {
+                "name": "Agra Heritage Tours",
+                "phone": "+91-9876543210",
+                "image": ""
+            },
+            {
+                "name": "Mughal Travel Services",
+                "phone": "+91-9123456780",
+                "image": ""
+            }
+        ]
+    },
+    "jaipur": {
+        "description": "Jaipur, the capital city of Rajasthan, is known as the 'Pink City' for its distinctively colored buildings. It boasts a rich history with magnificent forts and palaces.",
+        "image": "https://example.com/images/jaipur.jpg",
+        "famousPlaces": [
+            {
+                "name": "Hawa Mahal",
+                "location": "Jaipur, Rajasthan",
+                "image": "https://example.com/images/hawa_mahal.jpg"
+            },
+            {
+                "name": "Amber Fort",
+                "location": "Jaipur, Rajasthan",
+                "image": "https://example.com/images/amber_fort.jpg"
+            }
+        ],
+        "restaurants": [
+            {
+                "name": "Chokhi Dhani",
+                "location": "Jaipur, Rajasthan",
+                "image": "https://example.com/images/chokhi_dhani.jpg"
+            },
+            {
+                "name": "Laxmi Misthan Bhandar",
+                "location": "Jaipur, Rajasthan",
+                "image": "https://example.com/images/lmb.jpg"
+            }
+        ],
+        "hotels": [
+            {
+                "name": "Rambagh Palace",
+                "location": "Jaipur, Rajasthan",
+                "image": "https://example.com/images/rambagh_palace.jpg"
+            },
+            {
+                "name": "Fairmont Jaipur",
+                "location": "Jaipur, Rajasthan",
+                "image": "https://example.com/images/fairmont_jaipur.jpg"
+            }
+        ],
+        "travelAgencies": [
+            {
+                "name": "Jaipur Royal Tours",
+                "phone": "+91-9988776655",
+                "image": ""
+            },
+            {
+                "name": "Pink City Travels",
+                "phone": "+91-8877665544",
+                "image": ""
+            }
+        ]
+    },
+    "goa": {
+        "description": "Goa, located on the western coast of India, is famous for its pristine beaches, vibrant nightlife, and Portuguese heritage. It's a haven for tourists seeking relaxation and adventure.",
+        "image": "https://example.com/images/goa.jpg",
+        "famousPlaces": [
+            {
+                "name": "Baga Beach",
+                "location": "Goa",
+                "image": "https://example.com/images/baga_beach.jpg"
+            },
+            {
+                "name": "Fort Aguada",
+                "location": "Goa",
+                "image": "https://example.com/images/fort_aguada.jpg"
+            }
+        ],
+        "restaurants": [
+            {
+                "name": "Fisherman's Wharf",
+                "location": "Goa",
+                "image": "https://example.com/images/fishermans_wharf.jpg"
+            },
+            {
+                "name": "Mum's Kitchen",
+                "location": "Goa",
+                "image": "https://example.com/images/mums_kitchen.jpg"
+            }
+        ],
+        "hotels": [
+            {
+                "name": "Taj Exotica",
+                "location": "Goa",
+                "image": "https://example.com/images/taj_exotica.jpg"
+            },
+            {
+                "name": "The Leela Goa",
+                "location": "Goa",
+                "image": "https://example.com/images/leela_goa.jpg"
+            }
+        ],
+        "travelAgencies": [
+            {
+                "name": "Goa Travel Hub",
+                "phone": "+91-7766554433",
+                "image": ""
+            },
+            {
+                "name": "Sunshine Tours and Travels",
+                "phone": "+91-6655443322",
+                "image": ""
+            }
+        ]
+    },
+    "chandigarh": {
+        "description": "Chandigarh, the capital of both Punjab and Haryana, is known for its modern architecture and urban design. Designed by Le Corbusier, it's one of India's cleanest and most well-planned cities.",
+        "image": "https://example.com/images/chandigarh.jpg",
+        "famousPlaces": [
+            {
+                "name": "Rock Garden",
+                "location": "Sector 1, Chandigarh",
+                "image": "https://example.com/images/rock_garden.jpg"
+            },
+            {
+                "name": "Sukhna Lake",
+                "location": "Chandigarh",
+                "image": "https://example.com/images/sukhna_lake.jpg"
+            }
+        ],
+        "restaurants": [
+            {
+                "name": "Indian Coffee House",
+                "location": "Sector 17, Chandigarh",
+                "image": "https://example.com/images/indian_coffee_house.jpg"
+            },
+            {
+                "name": "Nik Baker’s",
+                "location": "Sector 35, Chandigarh",
+                "image": "https://example.com/images/nik_bakers.jpg"
+            }
+        ],
+        "hotels": [
+            {
+                "name": "JW Marriott Chandigarh",
+                "location": "Sector 35, Chandigarh",
+                "image": "https://example.com/images/jw_marriott_chandigarh.jpg"
+            },
+            {
+                "name": "Taj Chandigarh",
+                "location": "Sector 17, Chandigarh",
+                "image": "https://example.com/images/taj_chandigarh.jpg"
+            }
+        ],
+        "travelAgencies": [
+            {
+                "name": "City Travels Chandigarh",
+                "phone": "+91-9876543211",
+                "image": ""
+            },
+            {
+                "name": "Punjab Tour & Travels",
+                "phone": "+91-9988776655",
+                "image": ""
+            }
+        ]
+    },
+    "hyderabad": {
+        "description": "Hyderabad, the capital of Telangana, is known for its rich history, iconic monuments, and world-famous biryani. It blends tradition and modernity with tech hubs like HITEC City and heritage sites like Charminar.",
+        "image": "https://example.com/images/hyderabad.jpg",
+        "famousPlaces": [
+            {
+                "name": "Charminar",
+                "location": "Hyderabad, Telangana",
+                "image": "https://example.com/images/charminar.jpg"
+            },
+            {
+                "name": "Golconda Fort",
+                "location": "Hyderabad, Telangana",
+                "image": "https://example.com/images/golconda_fort.jpg"
+            }
+        ],
+        "restaurants": [
+            {
+                "name": "Paradise Biryani",
+                "location": "Secunderabad, Hyderabad",
+                "image": "https://example.com/images/paradise_biryani.jpg"
+            },
+            {
+                "name": "Bawarchi Restaurant",
+                "location": "RTC Cross Road, Hyderabad",
+                "image": "https://example.com/images/bawarchi.jpg"
+            }
+        ],
+        "hotels": [
+            {
+                "name": "Taj Falaknuma Palace",
+                "location": "Hyderabad, Telangana",
+                "image": "https://example.com/images/falaknuma_palace.jpg"
+            },
+            {
+                "name": "ITC Kohenur",
+                "location": "HITEC City, Hyderabad",
+                "image": "https://example.com/images/itc_kohenur.jpg"
+            }
+        ],
+        "travelAgencies": [
+            {
+                "name": "Hyderabad Travels",
+                "phone": "+91-9090909090",
+                "image": ""
+            },
+            {
+                "name": "Charminar Tours & Travels",
+                "phone": "+91-9123456790",
+                "image": ""
+            }
+        ]
+    },
+    "mumbai": {
+        "description": "Mumbai, the financial capital of India, is a vibrant city known for its Bollywood film industry, bustling streets, and iconic landmarks like the Gateway of India and Marine Drive.",
+        "image": "https://example.com/images/mumbai.jpg",
+        "famousPlaces": [
+            {
+                "name": "Gateway of India",
+                "location": "Mumbai, Maharashtra",
+                "image": "https://example.com/images/gateway_of_india.jpg"
+            },
+            {
+                "name": "Marine Drive",
+                "location": "Mumbai, Maharashtra",
+                "image": "https://example.com/images/marine_drive.jpg"
+            }
+        ],
+        "restaurants": [
+            {
+                "name": "Leopold Cafe",
+                "location": "Colaba, Mumbai",
+                "image": "https://example.com/images/leopold_cafe.jpg"
+            },
+            {
+                "name": "Trishna",
+                "location": "Fort, Mumbai",
+                "image": "https://example.com/images/trishna.jpg"
+            }
+        ],
+        "hotels": [
+            {
+                "name": "The Taj Mahal Palace",
+                "location": "Colaba, Mumbai",
+                "image": "https://example.com/images/taj_mahal_palace.jpg"
+            },
+            {
+                "name": "The Oberoi Mumbai",
+                "location": "Nariman Point, Mumbai",
+                "image": "https://example.com/images/oberoi_mumbai.jpg"
+            }
+        ],
+        "travelAgencies": [
+            {
+                "name": "Mumbai Tours & Travels",
+                "phone": "+91-9812345678",
+                "image": ""
+            },
+            {
+                "name": "Bollywood City Travels",
+                "phone": "+91-9900112233",
+                "image": ""
+            }
+        ]
+    }
+>>>>>>> 898222fb33461884cf2f4c728b13850d8a384d79
 }
